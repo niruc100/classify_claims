@@ -1,90 +1,91 @@
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+asttokens==2.0.5
+backcall==0.2.0
 beautifulsoup4==4.11.1
-certifi @ file:///C:/Windows/TEMP/abs_e9b7158a-aa56-4a5b-87b6-c00d295b01fanefpc8_o/croots/recipe/certifi_1655968940823/work/certifi
+certifi==2022.6.15
 charset-normalizer==2.1.1
 click==8.1.3
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+colorama==0.4.4
+cycler==0.11.0
 Cython==0.29.32
-debugpy @ file:///C:/ci_310/debugpy_1642079916595/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+debugpy==1.5.1
+decorator==5.1.1
 deep-translator==1.9.1
-docutils @ file:///C:/ci_310/docutils_1642080194278/work
+docutils==0.18.1
 emoji==1.6.3
-entrypoints @ file:///C:/ci/entrypoints_1649926676279/work
+entrypoints==0.4
 et-xmlfile==1.1.0
-executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
-fasttext-win==0.8.3
+executing==0.8.3
 fonttools==4.25.0
 fst-pso==1.8.1
 future==0.18.2
-FuzzyTM==2.0.5
 gensim==4.3.0
 idna==3.4
-imageio @ file:///tmp/build/80754af9/imageio_1617700267927/work
+imageio==2.9.0
 imageio-ffmpeg==0.4.7
-ipykernel @ file:///C:/ci/ipykernel_1647000977835/work/dist/ipykernel-6.9.1-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1648799052714/work
+ipykernel==6.9.1
+ipython==8.2.0
 isodate==0.6.1
-jedi @ file:///C:/ci/jedi_1644315428305/work
+jedi==0.18.1
 joblib==1.2.0
-jupyter-client @ file:///opt/conda/conda-bld/jupyter_client_1643638337975/work
-jupyter-core @ file:///C:/ci/jupyter_core_1646994639510/work
-kiwisolver @ file:///C:/ci_310/kiwisolver_1642083321497/work
+jupyter-client==7.1.2
+jupyter-core==4.9.2
+kiwisolver==1.3.1
 langdetect==1.0.9
 libretranslatepy==2.1.1
 lxml==4.9.2
-matplotlib @ file:///C:/ci/matplotlib-suite_1647423638658/work
-matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+matplotlib==3.5.1
+matplotlib-inline==0.1.2
 miniful==0.0.6
 mkl-fft==1.3.1
-mkl-random @ file:///C:/ci_310/mkl_random_1643050563308/work
+mkl-random==1.2.2
 mkl-service==2.4.0
 munkres==1.1.4
-nest-asyncio @ file:///C:/ci/nest-asyncio_1649848132512/work
+nest-asyncio==1.5.5
 nltk==3.8
 numpy==1.22.4
 openpyxl==3.0.10
 ots-eval==0.0.4
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+packaging==21.3
 pandas==1.5.2
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+parso==0.8.3
 patsy==0.5.3
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+pickleshare==0.7.5
 Pillow==9.0.1
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+pip==21.2.4
+prompt-toolkit==3.0.20
 protobuf==4.21.12
-pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pure-eval==0.2.2
 pybind11==2.10.1
 pyenchant==3.2.2
 pyFUME==0.2.25
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+Pygments==2.11.2
+pyparsing==3.0.4
+python-dateutil==2.8.2
 pytz==2021.3
 pywin32==302
-pyzmq @ file:///C:/ci_310/pyzmq_1642090360481/work
+pyzmq==22.3.0
 rdflib==6.2.0
 regex==2022.10.31
 requests==2.28.1
 scikit-learn==1.2.0
-scipy @ file:///C:/ci_310/scipy_1642247684282/work
+scipy==1.7.3
 seaborn==0.12.1
+setuptools==61.2.0
 simpful==2.9.0
 sip==4.19.13
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+six==1.16.0
 smart-open==6.3.0
 soupsieve==2.3.2.post1
 SPARQLWrapper==2.0.0
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+stack-data==0.2.0
 statistics==1.0.3.5
 text2emotion==0.0.5
 threadpoolctl==3.1.0
-tornado @ file:///C:/ci_310/tornado_1642093111997/work
-tqdm @ file:///C:/ci/tqdm_1650618044857/work
-traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+tornado==6.1
+tqdm==4.64.0
+traitlets==5.1.1
 urllib3==1.26.13
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+wcwidth==0.2.5
+wheel==0.37.1
 wincertstore==0.2
 xlrd==2.0.1
