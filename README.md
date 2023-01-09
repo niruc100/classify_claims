@@ -12,8 +12,8 @@ Use this repository to prepare your solution.
 - **output_data**: folder that must be populated with the results of the home project. Please refer to the task description in the assignment folder for information on the format. The file dummy_predictions.csv contains dummy data in the required format. 
 
 ## 1. Prerequisites
-- python >= 10.4
-- packages in requirements.txt
+- python >= 3.10.4
+- packages in `requirements.txt`
 - Active internet connection 
 
 ## 2. Data Aquisition
