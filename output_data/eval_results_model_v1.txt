@@ -1,3 +1,0 @@
-Accuracy: 0.47
-(macro) Precision: 0.44
-(macro) Recall: 0.42
