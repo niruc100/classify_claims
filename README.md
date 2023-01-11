@@ -39,7 +39,7 @@ PREFIX itsrdf:<https://www.w3.org/2005/11/its/rdf#>
 			    ?rating schema:alternateName ?ratval .
 			    ?review schema:itemReviewed ?claim .
 			    ?claim schema:text ?text .
-                ?claim schema:datePublished ?date .
+                ?review schema:datePublished ?date .
                 FILTER regex(?ratval , "(^FALSE|TRUE|OTHER)") 
 			    } ORDER BY ?claim 
 		    }
@@ -83,14 +83,15 @@ Before augmenting the data, ensure that `preprocessed_claims.csv` is located in 
 
 **Notes**:
 - For convenience, we uploaded the augmented data already into the `data` folder (since augmenting the data will take ~6h)
+- This augmented data is from the 20K claims of the first version, there is currently no augmented data for the 40K "new" claims from after a query update!
 
 ## 5. Train Model
 
-Before training the model, ensure that `augmented_claims.csv` is located in the `data` folder. By running `train_model.py` you can retrain the current best model on the loaded data which is saved to the `data` folder as `vectorizer_v1.pkl` and `model_v1.pkl`.
+Before training the model, ensure that `preprocessed_claims.csv` is located in the `data` folder. By running `train_model.py` you can retrain the current best model on the loaded data which is saved to the `data` folder as `vectorizer_v1.pkl` and `model_v1.pkl`.
 
 **Notes**:
 - For convenience, we uploaded the trained model and vectorizer already into the `data` folder, however, retraining is fast.
-- The performance is similar (bad) when using `preprocessed_claims.csv` as training data.
+- The performance is similar (bad) when using `augmented_claims.csv` as training data.
 
 ## 6. Evaluation
 
