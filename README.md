@@ -119,4 +119,8 @@ Afterwards, the `eval.py` in the `eval` folder can be executed.
 - For convenience, we uploaded the predictions into the `output_data` folder, however, re-running the `eval_model.py` is fast.
 - Update: The notebook `Eval_train_val_test.ipynb` explores the distribution shift of the test set, that causes a significant performance drop for all models on the test set.
 
+## 9. Presentation
+
+The `classify_claims_presentation.pdf` provides a short overview of the project by presenting and discussing a single MVP3 classifier (Decision Tree Classifier) and its results.
+
 
